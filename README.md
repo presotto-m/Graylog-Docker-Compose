@@ -27,7 +27,5 @@ A instalação completa instalará o seguinte:
 
 * http://localhost:9000
 * http://seu-host-name:9000
-
 * Credenciais de login: User (Admin) senha (Admin)
-
-# Acesso banco de dados de acordo com a config disponibilizada no Docker compose qual recomando a alteração das mesmas
+* Acesso banco de dados de acordo com a config disponibilizada no Docker compose qual recomando a alteração das mesmas
