@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   mongo:
-    image: mongo:latest
+    image: mongo:3
     volumes:
       - ./mongo_data:/data/db
     networks:
