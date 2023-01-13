@@ -21,7 +21,7 @@ services:
       - graylog-network
 
   graylog:
-    image: graylog/graylog:5.0.2
+    image: graylog/graylog:3.1.0
     volumes:
       - ./graylog_journal:/usr/share/graylog/data/journal
     environment:
