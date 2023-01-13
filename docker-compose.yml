@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   mongo:
-    image: mongo:3
+    image: mongo:latest
     volumes:
       - ./mongo_data:/data/db
     networks:
@@ -21,7 +21,7 @@ services:
       - graylog-network
 
   graylog:
-    image: graylog/graylog:3.1.0
+    image: graylog/graylog:5.0.2
     volumes:
       - ./graylog_journal:/usr/share/graylog/data/journal
     environment:
